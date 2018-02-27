@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--suppress XmlUnboundNsPrefix -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="alkahf_performance" frontName="alkahf_performance">
+            <module name="Alkahf_PerformanceDashboard"/>
+        </route>
+    </router>
+</config>
+  
