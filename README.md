@@ -30,7 +30,6 @@ php bin/magento setup:static-content:deploy --area adminhtml
 
 # Description #
 
-Using our experience as [Magento Hosting professionals] we created a list of best-practises for a high performance Magento 2 setup.
 Based on this list we have created a dashboard which automatically tests these various config settings and other setup choices.
 Checks executed:
 
