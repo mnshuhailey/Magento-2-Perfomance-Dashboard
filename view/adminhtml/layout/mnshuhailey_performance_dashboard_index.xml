@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--suppress XmlUnboundNsPrefix -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Performance Dashboard - by MNShuhailey.com</title>
+    </head>
+    <update handle="MNShuhailey_performance_dashboard_block"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="MNShuhailey\PerformanceDashboard\Block\Backend\Dashboard" name="MNShuhailey_performance.dashboard.container"/>
+        </referenceContainer>
+    </body>
+</page>
+  
